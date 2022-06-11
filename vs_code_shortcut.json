@@ -1,0 +1,40 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+        {
+                    "key": "ctrl+alt+.",
+                            "command": "workbench.files.action.collapseExplorerFolders"
+                                },
+                                    {
+                                                "key": "ctrl+alt+/",
+                                                        "command": "workbench.action.splitEditorLeft"
+                                                            },
+                                                                {
+                                                                            "key": "ctrl+alt+'",
+                                                                                    "command": "workbench.action.splitEditorRight"
+                                                                                        },
+                                                                                            {
+                                                                                                        "key": "ctrl+alt+enter",
+                                                                                                                "command": "github.copilot.generate",
+                                                                                                                        "when": "editorTextFocus && github.copilot.activated"
+                                                                                                                            },
+                                                                                                                                {
+                                                                                                                                            "key": "ctrl+enter",
+                                                                                                                                                    "command": "-github.copilot.generate",
+                                                                                                                                                            "when": "editorTextFocus && github.copilot.activated"
+                                                                                                                                                                },
+                                                                                                                                                                    {
+                                                                                                                                                                                "key": "ctrl+shift+5",
+                                                                                                                                                                                        "command": "-workbench.action.terminal.splitInstance",
+                                                                                                                                                                                                "when": "terminalProcessSupported && terminalTabsFocus"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                                    "key": "f9",
+                                                                                                                                                                                                                            "command": "workbench.action.debug.stepInto",
+                                                                                                                                                                                                                                    "when": "debugState != 'inactive'"
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                        "key": "f11",
+                                                                                                                                                                                                                                                                "command": "-workbench.action.debug.stepInto",
+                                                                                                                                                                                                                                                                        "when": "debugState != 'inactive'"
+                                                                                                                                                                                                                                                                            }
+]
